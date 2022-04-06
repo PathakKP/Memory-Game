@@ -1,0 +1,11 @@
+.home {
+    /* height: 100%;
+    width: 100%; */
+}
+
+.display_nft {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between; 
+}
+
