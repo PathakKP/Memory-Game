@@ -1,15 +1,12 @@
 .header {
   display: flex;
-  justify-content:space-between;
   align-items: center;
-  width: 100%;
-  height: 100px;
-  background-color: #233142;  
+  flex-direction: column;
+  background: rgb(4, 4, 4);  
 }
 
 .title {
-    margin-left: 50px;
-    font-size: large;
+    font-size:large;
     color: white;
 }
 
@@ -18,8 +15,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-right: 350px;
-   
+    font-size: 20px;
 }
 
 /* .score >* {
@@ -29,13 +25,13 @@ width:25px
 
 .current_score {
     color: white;
-    size: 150px;
-    padding: 20px;
+    display: inline-block;
+    margin-right: 20px;
 }
 
 .high_score {
+    display: inline-block;
+    float: right;
     color: white;
-    size: 150px;
-    padding: 20px;
 }
 

@@ -1,11 +1,27 @@
 .home {
-    /* height: 100%;
-    width: 100%; */
+    
+    width: 100%;
 }
 
 .display_nft {
+  margin-top: 5px;
  display: flex;
  flex-wrap: wrap;
- justify-content: space-between; 
+ justify-content: space-around;
+ width: 100%;
 }
 
+.transition-enter {
+    opacity: 0;
+  }
+  .transition-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+  .transition-exit {
+    opacity: 1;
+  }
+  .transition-exit-active {
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+  }

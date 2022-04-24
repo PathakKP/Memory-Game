@@ -48,6 +48,8 @@ function App() {
   {
     setList(list.map((list_item)=>list_item={...list_item,doubleClick:false}))
   }
+  if(current_score>high_score)
+  setHighScore(current_score)
  },[current_score]);                                     
 
  const increaseCurrent=(id)=>

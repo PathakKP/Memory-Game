@@ -1,0 +1,10 @@
+.App {
+    background: rgb(4, 4, 4);
+  background: linear-gradient(
+    0deg,
+    rgba(4, 4, 4, 0.8295693277310925) 18%,
+    rgba(8, 7, 7, 1) 100%
+  );
+
+  font-family: 'Hind', sans-serif;
+}

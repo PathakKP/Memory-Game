@@ -9,9 +9,12 @@ const Header = ({currentScore,highScore}) => {
         </div>
         <div className="score">
             <div className="current_score">
-            <strong>{currentScore}</strong>
+              <p>Score: {currentScore}</p>
+            
               </div>
-            <div className="high_score"><strong>{highScore}</strong> </div>
+            <div className="high_score">
+              <p>Best: {highScore}</p> 
+              </div>
         </div>
     </div>
   )
